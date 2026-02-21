@@ -208,3 +208,11 @@ node_modules/
 dist/
 out/
 .vercel/
+# Node / Next
+node_modules/
+**/node_modules/
+.next/
+out/
+dist/
+.vercel/
+*.log
