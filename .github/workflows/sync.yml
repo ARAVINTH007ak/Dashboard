@@ -1,0 +1,16 @@
+name: Daily Sync
+
+on:
+  schedule:
+    - cron: "0 2 * * *"   # runs every day (UTC)
+  workflow_dispatch:       # allows manual run
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Call Sync API
+        run: |
+          curl -X POST "https://dashboard-gw1o.onrender.com/api/sync" \
+          -H "x-sync-token: password@123"

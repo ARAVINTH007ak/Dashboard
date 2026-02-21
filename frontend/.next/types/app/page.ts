@@ -1,4 +1,4 @@
-// File: /Users/aravinth/Desktop/impact_dashboard/frontend/app/page.tsx
+// File: /Users/aravinth/Desktop/Dashboard/frontend/app/page.tsx
 import * as entry from '../../../app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
