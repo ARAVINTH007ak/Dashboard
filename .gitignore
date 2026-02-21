@@ -201,3 +201,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Node / Next
+node_modules/
+**/node_modules/
+.next/
+out/
+dist/
+.vercel/
+*.log
