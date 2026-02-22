@@ -30,8 +30,7 @@ export default async function Page() {
       <div className="card">
         <div className="h1">Engineer Impact Dashboard</div>
         <div className="muted">
-          Measures shipped outcomes plus enabling others. Window: last{" "}
-          {data.days} days.
+          Measures shipped outcomes plus enabling others. Window: last 90 days.
         </div>
       </div>
 
