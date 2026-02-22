@@ -1,9 +1,8 @@
 import "../styles/globals.css";
 
 export const metadata = {
-  title: "Engineer Impact Dashboard",
-  description:
-    "Top 5 impactful engineers based on last 5 days of repo activity",
+  title: "Engineer Dashboard",
+  description: "Engineer Impact Dashboard",
 };
 
 export default function RootLayout({
@@ -13,9 +12,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
-        <div className="container">{children}</div>
-      </body>
+      <body>{children}</body>
     </html>
   );
 }

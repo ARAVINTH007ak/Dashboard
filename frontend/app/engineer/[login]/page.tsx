@@ -59,11 +59,6 @@ export default async function EngineerPage({
         </div>
 
         <div className="sep" />
-        <div className="muted">
-          Avg merge days:{" "}
-          {data.avg_merge_days === null ? "-" : fmt(data.avg_merge_days, 2)} ·
-          Lines changed: {data.lines_changed}
-        </div>
       </div>
 
       <div className="card">
